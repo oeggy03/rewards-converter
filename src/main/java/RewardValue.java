@@ -1,7 +1,7 @@
 public class RewardValue {
     private Double cash;
     private Integer miles;
-    private final Double MILES_TO_CASH = 0.0035;
+    private static final Double MILES_TO_CASH = 0.0035;
 
     // Assume cash is Double - based on RewardsConverter.java
     public RewardValue(Double cash) {
